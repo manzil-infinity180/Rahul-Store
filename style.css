@@ -1,0 +1,159 @@
+/* Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Chakra+Petch:wght@600&family=Comme:wght@200&family=Nunito+Sans:ital,wght@1,300&display=swap');
+body{
+     background-color: black;
+     margin: 0;
+     font-family: 'Montserrat';
+}
+.rc-navbar{
+     /* color: black; */
+     /* margin-top: 2px; */
+     
+     background-color: black;
+}
+#myLinks {
+     display: none;
+   }
+.formargin{
+     color: aliceblue;
+     margin: 0 0 0 70px;
+     font-weight: 500;
+}
+.nav-img{
+     width: 60px;
+     height: 60px;
+     margin: 8px 200px 0 300px;
+
+}
+.mainPhoto{
+     /* margin-left: 900px; */
+     
+     width: 650px;
+     position: absolute;
+     left: 50%;
+     top: 200px;
+     
+
+}
+.phone{
+    
+     
+     padding: 10% 10% 20%;
+}
+.h1phone{
+     
+     /* top: 200px;  */
+     font-size: 2.5rem;
+     color: #ffffff;
+     font-weight: 400;
+     /* letter-spacing: 2px;
+     color: #ffffff;
+     font-weight: 700; */
+     
+
+}
+.h2phone{
+     
+     font-size: 3.75rem;
+     letter-spacing: 2px;
+     color: #ffffff;
+     font-weight: 700;
+  
+     color: white;
+}
+.down{
+     margin-top: 30px;
+     margin-left: 100px;
+     width: 180px;
+    
+}
+.watch{
+     background-color: #ffffff;
+     padding: 10%  20% 10%;
+}
+.watchMargin{
+     margin: 20px;
+     width: 140px;
+}
+
+.container-fluid{
+
+     padding-top: 30px;
+     padding-bottom: 30px;
+     text-align: center;
+     background-color: #ffffff;
+}
+.footer-icon{
+    margin-right: 10px;
+}
+.watch5Margin{
+     margin: 20px;
+     width: 230px;
+}
+.googleMargin{
+     margin: 20px;
+     width: 200px;
+}
+.pricing{
+     font-size: 2rem;
+     font-family:'San Francisco', Helvetica, Arial, san-serif;
+}
+.assessories{
+     padding: 7%  0% 5%;
+     background-color: black;
+     color: white;
+}
+.skill-row{
+     width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.airpods{
+     width: 25%;
+     float: right;
+     margin-left: 30px;
+     
+}
+.spacing{
+     color: #11999E;
+     line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.bold{
+     line-height: 1.2;
+     font-weight: 700;
+}
+.headphone{
+     width: 27%;
+     float: left;
+     margin-right: 30px;
+     
+}
+
+.white{
+     background-color: #ffffff;
+     padding: 50px 0;
+     text-align: center;
+     
+}
+.laptop{
+     padding: 5% 10% 4%;
+     text-align: center;
+}
+
+@media (max-width:1200px){
+     .mainPhoto{
+         position: static;
+         width: 400px;
+
+     }
+     .nav-img{
+          text-align: center;
+          position: static;
+     }
+     .formargin{
+          text-align: center;
+          margin-top: 30px;
+     }
+}

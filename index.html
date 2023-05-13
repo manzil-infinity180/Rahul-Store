@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Robomaina Store</title>
+     <link rel="stylesheet" href="style.css">
+          <!-- CSS and JS cdn link -->
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+          <!-- font awesome  -->
+          <!-- https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css -->
+          <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+          <script src="https://kit.fontawesome.com/ada7db950d.js" crossorigin="anonymous"></script>
+          <!-- Favicon -->
+          <link rel="icon" href="crc.png">
+</head>
+<body style="background-color: black; font-family: 'Montserrat';">
+     <section class="first">
+ <div class="rc-navbar">
+   <img onclick="robo()" src="rc.jpg" class="nav-img" alt="">
+   <a style="color: black;" href="#laptop"><span class="formargin">Laptop</span></a>
+   <a style="color: black;" href="#phone"><span class="formargin">Smartphones</span></a>
+   <a style="color: black;" href="#headphone"> <span class="formargin">Headphones</span></a>
+   <a style="color: black;" href="#watch"><span class="formargin">Watch</span></a>
+   <a style="color: black;" href="#airpods"><span class="formargin">AirPods</span></a>
+  
+   
+   
+    </div>
+     </section>
+     <section>
+          <div class="phone" id="phone">
+     <h1 class="h1phone">It's Time to Explore</h1>
+     <h1 class="h2phone">Robomaina Store</h2>
+     <button onclick="phone()" class="btn btn-lg btn-primary down" style="border-radius: 16px;">Buy Now</button>
+     <img  class="mainPhoto" src="phone-img.png" alt="">
+    </div>
+     </section>
+      <div class="white">
+           <h1 style="font-size: 3.5rem; font-weight: 650;  ">Laptop for your future.</h1>
+      </div>
+     <div class="laptop" id="laptop">
+   <p style="color: wheat; line-height: 2; letter-spacing: 2;">Apple 2020 MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey</p>
+  <img src="macbook.png" alt="" style="text-align: center; width: 370px; margin-top: 4%;">
+  <div style="text-align: center;">
+     <button onclick="laptop()" class="btn btn-primary" style=" border-radius: 16px; width: 200px; height: 45px; display: inline-block; margin-top: 30px;">Buy Now</button>
+  </div>
+  
+     </div>
+     
+<section id="watch">
+      <div class="row watch">
+     <h1 style="text-align: center; font-family: 'Montserrat'; font-size: 2.5rem; line-height: 1.2; font-weight: 700; ">Which New Stylish Watch is right for you?</h1>
+     <div class="col-lg-4">
+          <img class="watch5Margin"  src="watch5Pro.avif" alt="">
+      <h3 class="pricing" style="margin-top: 20px;">Watch 5 Pro</h3>
+      <p>From ₹35,000.0* </p>
+      <button onclick="watch1()" style="border-radius: 16px; width: 75px; " class="btn btn-primary">Buy</button>
+
+    </div>
+    <div class="col-lg-4">
+     <img class="watchMargin"  src="appleWatch.jpeg" alt="">
+     <h3 class="pricing" style="margin-top: 35px;">Apple Watch Se</h3>
+     <p>From ₹29,900.0*</p>
+     <button onclick="watch2()" style="border-radius: 16px; width: 75px;" class="btn btn-primary">Buy</button>
+
+    </div>
+    <div class="col-lg-4">
+     <img class="googleMargin" src="googlePixel.jpg" alt="">
+     <h3 class="pricing">Google Pixel Watch</h3>
+     <p>From ₹49,972* </p>
+      <button onclick="watch3()" style="border-radius: 16px; width: 75px; " class="btn btn-primary">Buy</button>
+    </div>
+
+    
+    
+
+    </div>
+    
+</section>
+   
+   <!-- Accessories   -->
+   <div class="assessories" >
+     <h1 class="forhover" style="color: white; text-align: center; font-size: 4.0rem; margin-bottom: 30px; letter-spacing: 5px; font-weight: 750;">Featured Accessories</h1>
+     <h2 style="text-align: center; font-size: 2.5rem; letter-spacing: 1.5; ">What are you looking for?</h2>
+     <div class="skill-row" id="airpods">    
+           <img class="airpods" src="cAirpods.png" alt="" style="width: 200px;">
+     <h2 class="spacing">AirPods</h2>
+     <p class="forbold"> The AirPods Pro (1st generation) sounds better than the originals and has a way better fit and active noise cancelling to boot.The fact that you'll never lose your Airpods again and they can survive for two days of listening is all you can ask for. Airpods are the best wireless earbuds out there</p>
+     <button onclick="airpods()"  class="btn btn-primary" style=" border-radius: 16px;">Buy Now</button>
+</div>
+<div class="skill-row" id="headphone">
+     <img class="headphone" src="chead.png" alt="" style="width: 200px;">
+     <h2 class="spacing">Headphones</h2>
+     <p class="forbold">The best budget in-ear headphones you can buy right now.Five-star wireless in-ear headphones that deliver sensational value for money.Use these high-end in-ear headphones with an outboard DAC and good quality files for the best results.</p>
+     <button onclick="headphone()"  class="btn btn-primary" style=" border-radius: 16px;">Buy Now</button>
+</div>
+
+<div class="skill-row" >
+     <img class="airpods" src="cpowerBank.png" alt="" style="width: 200px;">
+     <h2 class="spacing">Power Bank</h2>
+     <p class="forbold">Small power banks with 4,000mAh to 7,500mAh can provide decent backup power but, at most, enough for just one full recharge or so. Mid-range power banks will pack in around 10,000mAh to 15,000mAh and charge up most phones two or three times.</p>
+     <button onclick="power()"  class="btn btn-primary" style=" border-radius: 16px;">Buy Now</button>
+</div>
+
+
+</div>
+
+
+   
+
+
+    <div class="container-fluid">
+     <i  class="fa-brands fa-twitter fa-2x footer-icon"></i>
+     <i onclick="fb()"  class="fa-brands fa-facebook fa-2x footer-icon"></i>
+     <i onclick="insta()" class="fa-brands fa-instagram fa-2x footer-icon"></i>
+     <i onclick="linkedin()" class="fa-brands fa-linkedin fa-2x"></i>
+     <p class="copyright">© Copyright Robomaina Store</p>
+     <p style="font-size: 1.5rem; font-weight: 600;">Made by Rahul Vishwakarma</p>
+   </div>
+
+     <script src="app.js"></script>
+</body>
+</html>
